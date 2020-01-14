@@ -33,7 +33,7 @@ LC<-function(dat){
 }
 
 #Get.LC.Files extracts all .csv files in a folder and puts them into one continuous data frame
-Get.LC.Files<- function(wd = FALSE, filetag = FALSE, type = "csv"){
+Get.LC.Files<- function(wd = NULL, filetag = NULL, type = "csv"){
   #this sets the wd to whichever file you want to extract files from
   if (wd != FALSE){
     setwd(wd)}
